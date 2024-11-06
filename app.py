@@ -25,41 +25,56 @@ headers = {
 # İlk URL'ye istek gönderme
 response = requests.get(start_url, headers=headers)
 
+# Başlangıç URL'si ile ilgili hata kontrolü
+if response.status_code != 200:
+    print(f"Başlangıç URL'si erişilemedi, hata kodu: {response.status_code}")
+    exit()
+
 # HTML içeriğini parse etme
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # İlk <a> etiketini bulma
 ilk_a = soup.find('a')
 
-# href değerini alma ve o adrese gitme
 if ilk_a:
     href = ilk_a.get('href')
 
     # Yeni istek gönderme
     response_href = requests.get(href, headers=headers)
+    
+    if response_href.status_code != 200:
+        print(f"Linkte hata oluştu, hata kodu: {response_href.status_code}")
+        exit()
 
     # Meta refresh tag'ini parse etme
     soup_href = BeautifulSoup(response_href.text, 'html.parser')
-    title = soup_href.find('title').text
-    if title:
-        response_title = requests.get(title, headers=headers)
-        content=response_title.text
+    title = soup_href.find('title')
 
-        if content:
-            soup_title = BeautifulSoup(content, 'html.parser')
-            meta_tag_title = soup_title.find('meta', attrs={'http-equiv': 'refresh'})
+    if title:
+        # Meta refresh etiketi bulunmazsa URL'yi manuel olarak kontrol et
+        if "redirect" in title.text.lower():
+            print("Meta Refresh etiketi bulundu, yönlendirme var.")
+        else:
+            print(f"Title etiketi bulundu: {title.text}")
+
+        # Meta refresh etiketine dair içerik kontrolü
+        meta_tag_title = soup_href.find('meta', attrs={'http-equiv': 'refresh'})
+        if meta_tag_title:
             meta_tag_content = meta_tag_title.get('content')
-            
             url = meta_tag_content.split('URL=')[-1]
             yayin1_url = f"{url}channel.html?id=yayin1"
-            
+
             # Yeni URL'ye istek gönderme
             response_yayin1 = requests.get(yayin1_url, headers=headers)
-            
+
+            if response_yayin1.status_code != 200:
+                print(f"Yayın 1 URL'sine erişilemedi, hata kodu: {response_yayin1.status_code}")
+                exit()
+
             # Script içeriğini parse etme
             soup_yayin1 = BeautifulSoup(response_yayin1.text, 'html.parser')
             script_tags = soup_yayin1.find_all('script')
-            
+
             baseurl = None
             for script_tag in script_tags:
                 # Script içeriğini alma
@@ -71,27 +86,32 @@ if ilk_a:
                         baseurl = match.group(1)
                         baseurl = baseurl.rstrip('/')
                         break
-            else:
+
+            if not baseurl:
                 print("baseurl değeri bulunamadı.")
+            else:
+                print(f"Base URL başarıyla bulundu: {baseurl}")
+
         else:
-            print("Meta content özelliği bulunamadı.")
+            print("Meta Refresh etiketi bulunamadı.")
     else:
-        print("Meta refresh etiketi bulunamadı.")
+        print("Başlık etiketi bulunamadı.")
 else:
     print("İlk <a> etiketi bulunamadı.")
-    
-print("Yeni baseurl:", baseurl)
 
-# m3u dosyasını güncelleme
-m3u_file_path = "t.m3u"
-old_baseurl_pattern = r"https://[^/]+(?=/yayin\w+\.m3u8)"
+# M3U dosyasını güncelleme
+if baseurl:
+    m3u_file_path = "t.m3u"
+    old_baseurl_pattern = r"https://[^/]+(?=/yayin\w+\.m3u8)"
 
-with open(m3u_file_path, 'r') as file:
-    m3u_content = file.read()
+    with open(m3u_file_path, 'r') as file:
+        m3u_content = file.read()
 
-new_m3u_content = re.sub(old_baseurl_pattern, baseurl, m3u_content)
+    new_m3u_content = re.sub(old_baseurl_pattern, baseurl, m3u_content)
 
-with open(m3u_file_path, 'w') as file:
-    file.write(new_m3u_content)
+    with open(m3u_file_path, 'w') as file:
+        file.write(new_m3u_content)
 
-print("M3U dosyası güncellendi.")
+    print("M3U dosyası güncellendi.")
+else:
+    print("Base URL bulunamadığı için M3U dosyası güncellenmedi.")
