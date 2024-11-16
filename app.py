@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 # Başlangıç URL'si
-start_url = 'https://trgoalsgiris.pro'
+start_url = 'https://onlineparakazanmak.org/trgoalsyeniadres.html'
 
 # İstek gönderme
 headers = {
