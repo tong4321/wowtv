@@ -8,36 +8,42 @@ on:
     branches:
       - main
     paths:
-      - ".github/workflows/m3u_baseUrl.yml"
+      - ".github/workflows/m3u_baseUrl.yml"  # Sadece bu dosya değiştiğinde çalışacak
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # Repository'yi çekiyoruz
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Python'ı kuruyoruz
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'  # Gerekli Python sürümünüzü buraya yazın
 
+      # Gereksinimleri yüklüyoruz
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Python scriptini çalıştırıyoruz
       - name: Run Python Script
         run: python app.py
 
+      # Git yapılandırmalarını yapıyoruz
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      # Değişiklikleri commit edip, push'lıyoruz
       - name: Commit and Push Changes
         env:
-          PAT: ${{ secrets.PAT_TOKEN }}
+          PAT: ${{ secrets.PAT_TOKEN }}  # GitHub Secrets'dan PAT token alıyoruz
         run: |
           git add .
           git commit -m "chore: Update file"
