@@ -34,7 +34,7 @@ jobs:
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: "chore: Update file"
         push: true
-        github_token: ${{ secrets.PAT_TOKEN }}  # This is the secret with the PAT
+        github_token: ${{ secrets.PAT_TOKEN }}  # Ensure PAT is correctly stored in secrets
         add: .  # Add all changes
         cwd: .  # Run the git command in the current directory
         default_author: github_actor
