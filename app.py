@@ -22,64 +22,69 @@ headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
 }
 
-# Yeni URL'ye istek gönderme ve otomatik yönlendirmeyi takip etme
-response = requests.get(new_url, headers=headers, allow_redirects=True)
-
-# Yönlendirme sonrası son URL'yi alma
-final_url = response.url
+# 1. İlk isteği gönder ve yönlendirmeyi takip et
+response_initial = requests.get(new_url, headers=headers, allow_redirects=True)
+final_url = response_initial.url  # Yönlendirilmiş URL'yi al
 print(f"Yönlendirilmiş Son URL: {final_url}")
 
-# Yönlendirilmiş URL'ye istek gönderme
-response_href = requests.get(final_url, headers=headers)
+# 2. Yönlendirilmiş URL'ye istek gönder
+response_redirect = requests.get(final_url, headers=headers)
 
-# Meta refresh tag'ini parse etme
-soup_href = BeautifulSoup(response_href.text, 'html.parser')
-meta_tag_title = soup_href.find('meta', attrs={'http-equiv': 'refresh'})
+# 3. Meta refresh tag'ini parse et
+soup = BeautifulSoup(response_redirect.text, 'html.parser')
+meta_refresh_tag = soup.find('meta', attrs={'http-equiv': 'refresh'})
 
-if meta_tag_title:
-    meta_tag_content = meta_tag_title.get('content')
-    url = meta_tag_content.split('URL=')[-1]
-    yayin1_url = f"{url}channel.html?id=yayin1"
+if meta_refresh_tag:
+    # Meta tag'den URL'yi al
+    meta_content = meta_refresh_tag.get('content')
+    if meta_content:
+        url_match = re.search(r'URL=(https?://[^\s]+)', meta_content, re.IGNORECASE)
+        if url_match:
+            # Geçerli URL'yi ayrıştır
+            base_url = url_match.group(1)
+            yayin1_url = f"{base_url}/channel.html?id=yayin1"
 
-    # Yeni URL'ye istek gönderme
-    response_yayin1 = requests.get(yayin1_url, headers=headers)
+            # 4. Yayın 1 URL'sine istek gönder
+            response_yayin1 = requests.get(yayin1_url, headers=headers)
+            if response_yayin1.status_code == 200:
+                print(f"Yayın 1 URL başarılı: {yayin1_url}")
 
-    if response_yayin1.status_code != 200:
-        print(f"Yayın 1 URL'sine erişilemedi, hata kodu: {response_yayin1.status_code}")
-    else:
-        # Script içeriğini parse etme
-        soup_yayin1 = BeautifulSoup(response_yayin1.text, 'html.parser')
-        script_tags = soup_yayin1.find_all('script')
+                # 5. Script tag'lerden baseurl değerini bul
+                soup_yayin1 = BeautifulSoup(response_yayin1.text, 'html.parser')
+                script_tags = soup_yayin1.find_all('script')
 
-        baseurl = None
-        for script_tag in script_tags:
-            # Script içeriğini alma
-            script_content = script_tag.string
-            if script_content:
-                # baseurl değerini alma
-                match = re.search(r'var baseurl\s*=\s*"([^"]+)"', script_content)
-                if match:
-                    baseurl = match.group(1)
-                    baseurl = baseurl.rstrip('/')
-                    break
+                extracted_baseurl = None
+                for script in script_tags:
+                    if script.string:
+                        match = re.search(r'var baseurl\s*=\s*"([^"]+)"', script.string)
+                        if match:
+                            extracted_baseurl = match.group(1).rstrip('/')
+                            break
 
-        if not baseurl:
-            print("Base URL değeri bulunamadı.")
+                if extracted_baseurl:
+                    print(f"Base URL başarıyla bulundu: {extracted_baseurl}")
+
+                    # 6. M3U dosyasını güncelle
+                    m3u_file_path = "t.m3u"
+                    old_baseurl_pattern = r"https://[^/]+(?=/yayin\w+\.m3u8)"
+
+                    with open(m3u_file_path, 'r') as file:
+                        m3u_content = file.read()
+
+                    # Base URL'yi güncelle
+                    updated_m3u_content = re.sub(old_baseurl_pattern, extracted_baseurl, m3u_content)
+
+                    with open(m3u_file_path, 'w') as file:
+                        file.write(updated_m3u_content)
+
+                    print("M3U dosyası başarıyla güncellendi.")
+                else:
+                    print("Base URL değeri bulunamadı.")
+            else:
+                print(f"Yayın 1 URL'sine erişilemedi, hata kodu: {response_yayin1.status_code}")
         else:
-            print(f"Base URL başarıyla bulundu: {baseurl}")
-
-            # M3U dosyasını güncelleme
-            m3u_file_path = "t.m3u"
-            old_baseurl_pattern = r"https://[^/]+(?=/yayin\w+\.m3u8)"
-
-            with open(m3u_file_path, 'r') as file:
-                m3u_content = file.read()
-
-            new_m3u_content = re.sub(old_baseurl_pattern, baseurl, m3u_content)
-
-            with open(m3u_file_path, 'w') as file:
-                file.write(new_m3u_content)
-
-            print("M3U dosyası güncellendi.")
+            print("Meta tag içinde geçerli bir URL bulunamadı.")
+    else:
+        print("Meta refresh içeriği boş.")
 else:
-    print("Meta Refresh etiketi bulunamadı.")
+    print("Meta refresh etiketi bulunamadı.")
