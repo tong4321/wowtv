@@ -22,15 +22,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r ${GITHUB_WORKSPACE}/requirements.txt  # if you have a requirements.txt file
 
-    - name: deneme
+    - name: Run script
       run: python app.py  # change to be the path to your script
 
-    - name: Add and commit
+    - name: Add and commit changes
       uses: EndBug/add-and-commit@v9
       with:
         author_name: GitHub Actions
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: "chore: Update file"
         push: true
-        # Use the secret for authentication
-        token: ${{ secrets.PAT_TOKEN }}  # Make sure GH_TOKEN is added to repository secrets
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
