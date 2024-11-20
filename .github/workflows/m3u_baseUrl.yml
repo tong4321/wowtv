@@ -2,7 +2,7 @@ name: m3u_baseUrl
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch:
   push:
     branches:
