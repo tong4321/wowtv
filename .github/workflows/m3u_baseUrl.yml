@@ -1,16 +1,17 @@
 name: m3u_baseUrl
 
 on:
+  
   schedule:
     - cron: "*/10 * * * *"
-  # Run when manually triggered
+  # run when manually triggered
   workflow_dispatch:
-  # Run when this file is changed
+  # run when this file is changed
   push:
     branches:
       - main
     paths:
-      - ".github/workflows/m3u_baseUrl.yml"  # Change to be the path to this file
+      - ".github/workflows/m3u_baseUrl.yml"  # change to be the path to this file
 
 jobs:
   deploy:
@@ -22,21 +23,14 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r ${GITHUB_WORKSPACE}/requirements.txt  # If you have a requirements.txt file
+        pip install -r ${GITHUB_WORKSPACE}/requirements.txt  # if you have a requirements.txt file
 
-    - name: Run script
-      run: python app.py  # Change to the path to your script
+    - name: deneme
+      run: python app.py  # change to be the path to your script
 
-    - name: Add and commit changes
+    - name: Add and commit
       uses: EndBug/add-and-commit@v9
       with:
         author_name: GitHub Actions
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: "chore: Update file"
-        push: true
-        github_token: ${{ secrets.PAT_TOKEN }}  # Ensure PAT is correctly stored in secrets
-        add: .  # Add all changes
-        cwd: .  # Run the git command in the current directory
-        default_author: github_actor
-        fetch: --tags --force  # Fetch all branches and tags
-        pathspec_error_handling: ignore  # Ignore pathspec errors (useful for dealing with large directories)
