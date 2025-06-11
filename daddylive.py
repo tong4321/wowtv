@@ -281,7 +281,7 @@ def format_channel(channel):
 
 def main():
    
-    url = "https://kerimmkirac-daddyliveevents.hf.space/playlist/channels"
+    url = "https://mehmetey03-dadyytv.hf.space/playlist/channels"
     content = get_playlist_from_url(url)
     
     if not content:
