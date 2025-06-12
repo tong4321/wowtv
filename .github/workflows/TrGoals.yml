@@ -42,13 +42,13 @@ jobs:
         run: curl https://kerimmkirac-dproxy.hf.space
 
       - name: Alive 2
-        run: curl https://kerimmkirac-daddylive.hf.space
+        run: curl https://mehmetey03-dadyytv.hf.space
 
       - name: Alive 3
-        run: curl https://kerimmkirac-daddyliveevents.hf.space
+        run: curl https://mehmetey03-dadyytv.hf.space
 
       - name: Alive 4
-        run: curl https://kerimmkirac-vavoo.hf.space/
+        run: curl https://mehmetey03-metvvpn.hf.space/
 
       
 
