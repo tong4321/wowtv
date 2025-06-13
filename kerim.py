@@ -6,7 +6,7 @@ KANAL_ADLARI = {
     "Sinema Tv": "1908",
     "FX": "313131",
     "Now": "2213",
-    "Tv 8,5":"1901",
+    "Tv 8,5": "1901",
     "Sinema Yerli": "3304",
     "Sinema Aile": "1911",
     "Sinema 1001": "2602",
@@ -38,7 +38,21 @@ KANAL_ADLARI = {
     "Eurosport 1": "2002",
     "Eurosport 2": "1809",
     "S Sport": "1810",
-    "S Sport 2": "3901"
+    "S Sport 2": "3901",
+    "Epic Drama": "2802",
+    "Mezzo": "3501",
+    "Kitchen TV": "3710",
+    "Myzen Tv": "3003",
+    "Classical Harmony": "3804",
+    "Discovery Channel": "2211",
+    "ID": "2511",
+    "Viasat History": "2806",
+    "Love Nature": "3503",
+    "Docu Screen": "3502",
+    "Viasat Explore": "2807",
+    "Cgtn Documentary": "2607",
+    "Film Screen": "3509"
+    
 }
 
 def parse_m3u(file_path):
@@ -58,7 +72,7 @@ def parse_m3u(file_path):
 
 def update_kerim_m3u():
     yeni_kanallar = parse_m3u('yeni.m3u')
-    hedef_dosya = 'Kanallar/kerim.m3u'
+    hedef_dosya = '1.m3u'
 
     if not os.path.exists(hedef_dosya):
         print("kerim.m3u bulunamadı. Yeni oluşturuluyor...")
@@ -97,7 +111,7 @@ def update_kerim_m3u():
     with open(hedef_dosya, 'w', encoding='utf-8') as f:
         f.writelines(guncellenmis)
 
-    print("✅ kerim.m3u başarıyla güncellendi!")
+    print("✅ 1.m3u başarıyla güncellendi!")
 
 if __name__ == "__main__":
     update_kerim_m3u()

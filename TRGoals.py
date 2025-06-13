@@ -96,7 +96,7 @@ class TRGoals:
         with open(self.m3u_dosyasi, "r") as dosya:
             m3u_icerik = dosya.read()
 
-        if not (eski_yayin_url := re.search(r'https?:\/\/[^\/]+\.(workers\.dev|shop|click|lat)\/?', m3u_icerik)):
+        if not (eski_yayin_url := re.search(r'https?:\/\/[^\/]+\.(shop|click|lat)\/?', m3u_icerik)):
             raise ValueError("M3U dosyasında eski yayın URL'si bulunamadı!")
 
         eski_yayin_url = eski_yayin_url[0]
@@ -125,5 +125,5 @@ class TRGoals:
             dosya.write(yeni_m3u_icerik)
 
 if __name__ == "__main__":
-    guncelleyici = TRGoals("Kanallar/kerim.m3u")
+    guncelleyici = TRGoals("1.m3u")
     guncelleyici.m3u_guncelle()
