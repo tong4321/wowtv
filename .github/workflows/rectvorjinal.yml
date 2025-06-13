@@ -1,8 +1,8 @@
-name: Rec Tv Kontrol
+name: Rec Tv Orjinal Kontrol
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  
+    - cron: '0 */10 * * *'  
   workflow_dispatch:        
 
 jobs:
@@ -29,8 +29,8 @@ jobs:
 
       
 
-      - name: Rectv
-        run: python rectv.py
+      - name: rectvorjinal
+        run: python rectvorjinal.py
 
       
 
@@ -48,6 +48,6 @@ jobs:
       - name: Commit ve push 
         if: steps.git-check.outputs.changed == 'true'
         run: |
-          git add 1.m3u
-          git commit -m " Kanallar/kerim.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
+          git add rectv.m3u
+          git commit -m " rectv.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:main
