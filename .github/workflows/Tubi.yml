@@ -47,7 +47,7 @@ jobs:
           git add tubi_playlist.m3u tubi_epg.xml
           echo "Files staged:"
           git status
-          git commit -m "Update Tubi playlist and EPG files - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+          git commit -m "🔄Update Tubi playlist and EPG files - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
