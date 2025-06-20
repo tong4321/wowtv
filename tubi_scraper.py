@@ -118,7 +118,7 @@ def normalize_text(text):
 
 def create_m3u_playlist(epg_data, group_mapping, country):
     sorted_epg_data = sorted(epg_data, key=lambda x: x.get('title', '').lower())
-    playlist = f"#EXTM3U url-tvg=\"https://raw.githubusercontent.com/newf276/IP-TV/master/tubi_epg.xml\"\n"
+    playlist = f"#EXTM3U url-tvg=\"https://github.com/tong4321/wowtv/raw/refs/heads/main/tubi_epg.xml\"\n"
     playlist += f"# Generated on {datetime.now().isoformat()}\n"  # Add timestamp
     seen_urls = set()
 
