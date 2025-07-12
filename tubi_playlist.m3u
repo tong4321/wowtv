@@ -1,7 +1,5 @@
 #EXTM3U url-tvg="https://github.com/tong4321/wowtv/raw/refs/heads/main/tubi_epg.xml"
-# Generated on 2025-07-12T02:05:33.345486
-#EXTINF:-1 tvg-id="687450" tvg-logo="https://canvas-lb.tubitv.com/opts/Rd4QuukrF9J1Ng==/336146fe-7a27-4e45-ac1c-b4d57c74ca6c/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",25 News KXXV / KRHD
-https://live-manifest.production-public.tubi.io/live/7f5e34e6-a9e6-436e-b5df-e8b07314ed1b/playlist.m3u8
+# Generated on 2025-07-12T04:35:08.462540
 #EXTINF:-1 tvg-id="400000096" tvg-logo="https://canvas-lb.tubitv.com/opts/pQpb4BualR6eug==/f96dfd36-d049-4c63-ae07-410f192f18b6/CHgQeDoFMS4xLjdAAQ==" group-title="True Crime",A&E Crime 360
 https://live-manifest.production-public.tubi.io/live/8cba5c00-34f4-45da-a73a-1e3d813a0cfb/playlist.m3u8
 #EXTINF:-1 tvg-id="618762" tvg-logo="https://canvas-lb.tubitv.com/opts/Yhd4s3o16NlO2Q==/a3419933-ef7c-435f-a963-10be102b0dcd/CHgQeDoFMS4xLjdAAQ==" group-title="National News",ABC News Live
@@ -130,8 +128,6 @@ https://live-manifest.production-public.tubi.io/live/346a3973-426a-45dc-85fd-a59
 https://live-manifest.production-public.tubi.io/live/43fa471a-5820-4153-bab1-2f57e309731d/playlist.m3u8
 #EXTINF:-1 tvg-id="555121" tvg-logo="https://canvas-lb.tubitv.com/opts/JY4cQybESwL6mg==/030f186b-cf60-4481-b37a-2d17d42366fa/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",FOX 5 Washington DC
 https://live-manifest.production-public.tubi.io/live/bb7ef0b2-d455-480f-aa0b-2f2b6f77fa77/playlist.m3u8
-#EXTINF:-1 tvg-id="555112" tvg-logo="https://canvas-lb.tubitv.com/opts/Ismu90mHM7L1NA==/bbb39761-97ca-4153-9d4d-c77afcb89629/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",FOX 7 Austin
-https://live-manifest.production-public.tubi.io/live/41f79a10-e95c-44ff-a84d-d77713e035c5/playlist.m3u8
 #EXTINF:-1 tvg-id="613695" tvg-logo="https://canvas-lb.tubitv.com/opts/4hNpM_f3bPSNlQ==/c2e45f1a-4b72-41fa-ac6c-4e402ca4d4f6/CHgQeDoFMS4xLjdAAQ==" group-title="Español",Fox Sports Extra
 https://live-manifest.production-public.tubi.io/live/56f43f5a-4f97-44c8-a300-e3f87bd55122/playlist.m3u8
 #EXTINF:-1 tvg-id="613683" tvg-logo="https://canvas-lb.tubitv.com/opts/3bDAk8NCwmAoOQ==/69e052e9-4264-45cf-93f6-6218f998abc4/CHgQeDoFMS4xLjdAAQ==" group-title="Sports On Now",FOX Sports on Tubi
@@ -188,8 +184,6 @@ https://live-manifest.production-public.tubi.io/live/257c5c20-bd7d-4a2f-84b4-090
 https://live-manifest.production-public.tubi.io/live/f0c8870f-8b81-4017-a2f3-4f83a062079e/playlist.m3u8
 #EXTINF:-1 tvg-id="687447" tvg-logo="https://canvas-lb.tubitv.com/opts/6ZEUGtSPKM5DFw==/a6ee923c-4dc0-4d93-81a2-31bf11be3a7e/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",KATC News Acadiana
 https://live-manifest.production-public.tubi.io/live/f6651730-2dfa-491a-9f7a-a5900950eab9/playlist.m3u8
-#EXTINF:-1 tvg-id="688740" tvg-logo="https://canvas-lb.tubitv.com/opts/kSzQMFL7KqRecA==/6f832c92-e8da-4e41-aae6-354a4c6fd750/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",KRIS6 Corpus Christi
-https://live-manifest.production-public.tubi.io/live/5ad9f8fc-d982-4bb0-9a92-514e38beeee6/playlist.m3u8
 #EXTINF:-1 tvg-id="555127" tvg-logo="https://canvas-lb.tubitv.com/opts/YwL_n6bgQYW4OA==/f71c682e-37f8-4719-aa89-546d1c4c8bfe/CHgQeDoFMS4xLjdAAQ==" group-title="National News",LiveNOW from FOX
 https://live-manifest.production-public.tubi.io/live/0e36bf49-52c7-4a9f-a732-9a7e2b011a9a/playlist.m3u8
 #EXTINF:-1 tvg-id="400000067" tvg-logo="https://canvas-lb.tubitv.com/opts/Xsq3RW2CnvCRBw==/e4f84ab2-4935-4063-ad29-cc852b91e3b7/CHgQeDoFMS4xLjdAAQ==" group-title="True Crime",Living with Evil
