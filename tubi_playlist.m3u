@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://github.com/tong4321/wowtv/raw/refs/heads/main/tubi_epg.xml"
-# Generated on 2025-07-22T16:33:37.897593
+# Generated on 2025-07-22T20:30:28.931369
 #EXTINF:-1 tvg-id="400000096" tvg-logo="https://canvas-lb.tubitv.com/opts/pQpb4BualR6eug==/f96dfd36-d049-4c63-ae07-410f192f18b6/CHgQeDoFMS4xLjdAAQ==" group-title="True Crime",A&E Crime 360
 https://live-manifest.production-public.tubi.io/live/8cba5c00-34f4-45da-a73a-1e3d813a0cfb/playlist.m3u8
 #EXTINF:-1 tvg-id="618762" tvg-logo="https://canvas-lb.tubitv.com/opts/Yhd4s3o16NlO2Q==/a3419933-ef7c-435f-a963-10be102b0dcd/CHgQeDoFMS4xLjdAAQ==" group-title="National News",ABC News Live
@@ -44,8 +44,6 @@ https://live-manifest.production-public.tubi.io/live/f85e3cad-d93b-4ed7-bc4d-70b
 https://live-manifest.production-public.tubi.io/live/490a1ab0-fe8a-4016-a8c9-87620c925b19/playlist.m3u8
 #EXTINF:-1 tvg-id="555130" tvg-logo="https://canvas-lb.tubitv.com/opts/h8nuTB4CVJetBQ==/4de90f79-d72c-4016-a740-93916a615dc2/CHgQeDoFMS4xLjdAAQ==" group-title="Global News",CBC News
 https://live-manifest.production-public.tubi.io/live/2a5a9cc8-71e8-4aa1-85a8-b1f951eb71cd/playlist.m3u8
-#EXTINF:-1 tvg-id="689473" tvg-logo="https://canvas-lb.tubitv.com/opts/HlCfMrDE5blPgA==/572073ab-5145-412f-b9d0-6711c73ab661/CHgQeDoFMS4xLjdAAQ==" group-title="Local News",CBS 6 Richmond WTVR
-https://live-manifest.production-public.tubi.io/live/cb5ee2d3-ced6-4ce7-be28-775f56638801/playlist.m3u8
 #EXTINF:-1 tvg-id="400000074" tvg-logo="https://canvas-lb.tubitv.com/opts/h2DCeY3EWj1S1A==/9f0a41fe-3e4d-44cf-ab49-e27914cdd8c1/CHgQeDoFMS4xLjdAAQ==" group-title="True Crime",Chasing Criminals
 https://live-manifest.production-public.tubi.io/live/97322994-c2a5-4c90-8580-853bf32e5bd3/playlist.m3u8
 #EXTINF:-1 tvg-id="400000092" tvg-logo="https://canvas-lb.tubitv.com/opts/lfkMCDbuDzu9IA==/1a61481a-60fa-4294-9d23-f097b7773866/CHgQeDoFMS4xLjdAAQ==" group-title="Reality",Cheaters
