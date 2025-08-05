@@ -127,6 +127,10 @@ https://tv.arectv34.sbs/live/t2.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/t3.m3u8
+#EXTINF:-1 tvg-id="13" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" tvg-name="TİVİBU SPOR 4" group-title="Spor",TİVİBU SPOR 4
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/t4.m3u8
 #EXTINF:-1 tvg-id="97" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" tvg-name="24 HABER HD" group-title="Haber",24 HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -159,6 +163,10 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-id="26" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png" tvg-name="SÖZCÜ TV" group-title="Haber",SÖZCÜ TV
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
 #EXTINF:-1 tvg-id="93" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg" tvg-name="TGRT HABER HD" group-title="Haber",TGRT HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -171,6 +179,10 @@ https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/atv.m3u8
+#EXTINF:-1 tvg-id="25" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/cad74c9ef922f64138434a3ebb0980be.jpg" tvg-name="BENGÜTÜRK" group-title="Ulusal",BENGÜTÜRK
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 #EXTINF:-1 tvg-id="105" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/f52aae2d29699a04cf4209cbe7367996.png" tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -203,6 +215,22 @@ https://dogus-live.daioncdn.net/startv/startv.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
+#EXTINF:-1 tvg-id="22" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/614e1863861a3dbba1b1e107367b3e53.jpg" tvg-name="TRT 2" group-title="Ulusal",TRT 2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="17" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/c1e29a27bff35f6c081fe9b7103953b8.jpg" tvg-name="TRT AVAZ" group-title="Ulusal",TRT AVAZ
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="18" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/45fd54765eebb0b4e708c7448a2c8a93.jpg" tvg-name="TRT TÜRK" group-title="Ulusal",TRT TÜRK
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-id="24" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png" tvg-name="TV 100" group-title="Ulusal",TV 100
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 #EXTINF:-1 tvg-id="109" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/33204f43b374b3d0b662a80afa712518.jpg" tvg-name="TV 8 HD" group-title="Ulusal",TV 8 HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -347,6 +375,14 @@ https://tv.arectv34.sbs/live/viasatexplore.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/yaban.m3u8
+#EXTINF:-1 tvg-id="10" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" tvg-name="FASHION TV" group-title="Diğer",FASHION TV [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="10" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" tvg-name="FASHION TV" group-title="Diğer",FASHION TV [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="51" tvg-logo="https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/9756196c45fab27cf682ca813c12ceee.png" tvg-name="DREAM TÜRK TV HD" group-title="Müzik",DREAM TÜRK TV HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
