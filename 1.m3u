@@ -47,7 +47,7 @@ https://bs.arectv33.sbs/static/bs2.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports2/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-2" tvg-logo="" group-title="Spor",Bein Sports 2|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-2/playlist.m3u8
 
 
@@ -96,7 +96,7 @@ https://bs.arectv33.sbs/static/bs4.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports1/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-4" tvg-logo="" group-title="Spor",Bein Sports 4|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsports-4/playlist.m3u8
 
 
@@ -144,7 +144,7 @@ https://tv.arectv34.sbs/live/bm1.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-1" tvg-logo="" group-title="Spor",Bein Sports Max1|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/sbeinsportsmax-1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_A" tvg-logo="https://i.imgur.com/t7U20yR.png" group-title="Spor",beIN SPORTS Max 2 A
@@ -262,7 +262,7 @@ https://tv.arectv34.sbs/live/smart2.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuksmartspor2/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor2" tvg-logo="" group-title="Spor",Spor Smart 2|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/ssmartspor2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 1 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1 A
@@ -351,7 +351,7 @@ https://tv.arectv34.sbs/live/t4.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuktivibuspor4/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-4" tvg-logo="" group-title="Spor",Tivibu Spor 4|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe8.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://dga1op10s1u3leo.4301303bddff03.click/live/stivibuspor-4/playlist.m3u8
 
 
