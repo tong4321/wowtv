@@ -167,7 +167,7 @@ https://tv.arectv34.sbs/live/bm2.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-2" tvg-logo="" group-title="Spor",Bein Sports Max2|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe10.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/sbeinsportsmax-2/playlist.m3u8
 
 
@@ -212,7 +212,7 @@ https://one.zirvestream11.cfd/yayinss2.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport2/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport2" tvg-logo="" group-title="Spor",S Sport 2|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe10.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/sssport2/playlist.m3u8
 
 
@@ -236,7 +236,7 @@ https://tv.arectv34.sbs/live/smart1.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuksmartspor/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="" group-title="Spor",Spor Smart|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe10.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/ssmartspor/playlist.m3u8
 
 
@@ -329,7 +329,7 @@ https://tv.arectv34.sbs/live/t3.m3u8
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuktivibuspor3/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-3" tvg-logo="" group-title="Spor",Tivibu Spor 3|CF
-#EXTVLCOPT:http-referrer= https://www.sporcafe10.xyz/
+#EXTVLCOPT:http-referrer= https://www.sporcafe9.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/stivibuspor-3/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 4 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/59bqi81642604517.png" group-title="Spor",Tivibu Spor 4 A
