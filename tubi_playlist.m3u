@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://github.com/tong4321/wowtv/raw/refs/heads/main/tubi_epg.xml"
-# Generated on 2026-05-06T17:45:25.238359
+# Generated on 2026-05-06T21:14:52.044146
 #EXTINF:-1 tvg-id="400000096" tvg-logo="https://canvas-lb.tubitv.com/opts/PkGioxw_qoRs4Q==/f96dfd36-d049-4c63-ae07-410f192f18b6/CHgQeDoFMS4xLjlAAQ==" group-title="True Crime",A&E Crime 360
 https://live-manifest.production-public.tubi.io/live/520220a7-f8c9-488b-b311-0654a1d3c1b8/playlist.m3u8
 #EXTINF:-1 tvg-id="618762" tvg-logo="https://canvas-lb.tubitv.com/opts/UE7AlcHTNh1JbA==/a3419933-ef7c-435f-a963-10be102b0dcd/CHgQeDoFMS4xLjlAAQ==" group-title="National News",ABC News Live
@@ -228,6 +228,8 @@ https://live-manifest.production-public.tubi.io/live/69aad4c1-9bb9-49db-9b2a-f8b
 https://live-manifest.production-public.tubi.io/live/d0ca4057-94d2-44df-9277-fc715b261596/playlist.m3u8
 #EXTINF:-1 tvg-id="400000006" tvg-logo="https://canvas-lb.tubitv.com/opts/z5KrO42O-7nU4A==/9d4070e4-10ea-42f7-8598-d56da77c07e0/CHgQeDoFMS4xLjlAAQ==" group-title="Sci-Fi & Supernatural",OuterSphere
 https://live-manifest.production-public.tubi.io/live/ab6d635a-6d89-4228-93a6-c3a98980450c/playlist.m3u8
+#EXTINF:-1 tvg-id="400000292" tvg-logo="https://canvas-lb.tubitv.com/opts/Y4bN1fFARdGeEg==/66d0923c-164a-4279-a199-206a054e98d9/CHgQeDoFMS4xLjlAAQ==" group-title="Reality",Paternity Court by MGM
+https://live-manifest.production-public.tubi.io/live/83325caf-81ea-40fa-8013-8510dc9a1693/playlist.m3u8
 #EXTINF:-1 tvg-id="715939" tvg-logo="https://canvas-lb.tubitv.com/opts/Xy_fFJ2HP2eLiA==/9aa4b3ac-db29-4a50-9c78-973cdeb2bed6/CHgQeDoFMS4xLjlAAQ==" group-title="Science & Nature",Paws & Claws
 https://live-manifest.production-public.tubi.io/live/29c0f72f-e546-4599-a7d5-ad1c2928d531/playlist.m3u8
 #EXTINF:-1 tvg-id="400000046" tvg-logo="https://canvas-lb.tubitv.com/opts/-1nseJGZfQ7nOQ==/168854e2-e698-4fee-8e2a-5e21c7b278c4/CHgQeDoFMS4xLjlAAQ==" group-title="Sports On Now",PGA TOUR
@@ -326,6 +328,8 @@ https://live-manifest.production-public.tubi.io/live/edb986fe-9600-4f83-8b6d-859
 https://live-manifest.production-public.tubi.io/live/ea70dfb3-0a75-4ca1-9151-476fb43f6230/playlist.m3u8
 #EXTINF:-1 tvg-id="692073" tvg-logo="https://canvas-lb.tubitv.com/opts/4d5Ea4ugACCJXg==/4a1d8a18-5086-438b-9298-7381aee4cb83/CHgQeDoFMS4xLjlAAQ==" group-title="Sports On Now",Women's Sports Network
 https://live-manifest.production-public.tubi.io/live/d4c5e01e-75ff-4e1d-abb1-d240e3a3694a/playlist.m3u8
+#EXTINF:-1 tvg-id="400000293" tvg-logo="https://canvas-lb.tubitv.com/opts/ONtAI886BGJLPQ==/f2b18c8c-c8c1-4a3c-97da-2a247fa7395e/CHgQeDoFMS4xLjlAAQ==" group-title="Reality",World of Love Island
+https://live-manifest.production-public.tubi.io/live/236f6c6f-2c44-496f-897e-6ea958233674/playlist.m3u8
 #EXTINF:-1 tvg-id="400000093" tvg-logo="https://canvas-lb.tubitv.com/opts/qqJAXtXP7TIolA==/0aa317c5-3f1c-4949-9e48-3f257c8293c4/CHgQeDoFMS4xLjlAAQ==" group-title="True Crime",World's Most Evil Killers
 https://live-manifest.production-public.tubi.io/live/8a3bfd19-8982-4a0a-b76c-14d02ea82fad/playlist.m3u8
 #EXTINF:-1 tvg-id="702892" tvg-logo="https://canvas-lb.tubitv.com/opts/O6w2cPsZ16GUNA==/075f8826-fdc1-4007-aed3-abe290b90ff7/CHgQeDoFMS4xLjlAAQ==" group-title="Science & Nature",Xplore
