@@ -825,6 +825,8 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/343496468
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2224047651/index.m3u8
 #EXTINF:-1 tvg-name="BIR TV (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="BIR_TV_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",BIR TV (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2540770089/index.m3u8
+#EXTINF:-1 tvg-name="BLOOMBERG (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="BLOOMBERG_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",BLOOMBERG (7)
+https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2603224141/index.m3u8
 #EXTINF:-1 tvg-name="BLOOMBERG HT (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="BLOOMBERG_HT_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",BLOOMBERG HT (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/223866535/index.m3u8
 #EXTINF:-1 tvg-name="BLOOMBERG HT HD (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="BLOOMBERG_HT_HD_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",BLOOMBERG HT HD (1)
@@ -1697,8 +1699,6 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/259154477
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/586568093/index.m3u8
 #EXTINF:-1 tvg-name="MIMOCAN TV (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MIMOCAN_TV_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",MIMOCAN TV (1)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2175768896/index.m3u8
-#EXTINF:-1 tvg-name="MINIKA GO (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MINIKA_GO_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",MINIKA GO (7)
-https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2937701421/index.m3u8
 #EXTINF:-1 tvg-name="MONTAG & FREITAG BULLI (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MONTAG_FREITAG_BULLI_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",MONTAG & FREITAG BULLI (1)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2862980701/index.m3u8
 #EXTINF:-1 tvg-name="MOVIE SMART ACTION (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MOVIE_SMART_ACTION_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1051)",MOVIE SMART ACTION (7)
