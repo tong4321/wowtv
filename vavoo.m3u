@@ -1211,8 +1211,6 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/129043489
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/3358854668/index.m3u8
 #EXTINF:-1 tvg-name="EURO D (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="EURO_D_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",EURO D (7)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2784530383/index.m3u8
-#EXTINF:-1 tvg-name="EURO STAR (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="EURO_STAR_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",EURO STAR (1)
-https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1827094680/index.m3u8
 #EXTINF:-1 tvg-name="EURO STAR (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="EURO_STAR_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",EURO STAR (7)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/3814521935/index.m3u8
 #EXTINF:-1 tvg-name="EXXEN TV (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="EXXEN_TV_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",EXXEN TV (6)
@@ -2443,5 +2441,7 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/245742586
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1240136619/index.m3u8
 #EXTINF:-1 tvg-name="YOL TV (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="YOL_TV_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",YOL TV (7)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1071166054/index.m3u8
+#EXTINF:-1 tvg-name="YOL TV SD (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="YOL_TV_SD_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",YOL TV SD (1)
+https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/607077155/index.m3u8
 #EXTINF:-1 tvg-name="ZONGULDAK KANAL Z (1)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="ZONGULDAK_KANAL_Z_1_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1052)",ZONGULDAK KANAL Z (1)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1467834090/index.m3u8
