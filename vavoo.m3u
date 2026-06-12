@@ -647,6 +647,8 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/208458743
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2042734050/index.m3u8
 #EXTINF:-1 tvg-name="ATV (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="ATV_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",ATV (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/455930425/index.m3u8
+#EXTINF:-1 tvg-name="ATV (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="ATV_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",ATV (7)
+https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1255594337/index.m3u8
 #EXTINF:-1 tvg-name="ATV ALANYA (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="ATV_ALANYA_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",ATV ALANYA (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/930209556/index.m3u8
 #EXTINF:-1 tvg-name="ATV AVRUPA (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="ATV_AVRUPA_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",ATV AVRUPA (6)
@@ -1681,8 +1683,6 @@ https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/153646193
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2719293629/index.m3u8
 #EXTINF:-1 tvg-name="MC EU (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MC_EU_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",MC EU (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/3849971860/index.m3u8
-#EXTINF:-1 tvg-name="MED MUZIK (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MED_MUZIK_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",MED MUZIK (6)
-https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/1861216008/index.m3u8
 #EXTINF:-1 tvg-name="MEDYA HABER (6)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MEDYA_HABER_6_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",MEDYA HABER (6)
 https://kerimmkirac-vavoo.hf.space/proxy/m3u?url=https://vavoo.to/play/2230968262/index.m3u8
 #EXTINF:-1 tvg-name="MELTEM (7)" tvg-language="Türkçe" tvg-country="Türkiye" tvg-id="MELTEM_7_" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/vavoo.png" group-title="Genel Kanallar (1057)",MELTEM (7)
